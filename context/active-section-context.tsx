@@ -17,7 +17,7 @@ export default function ActiveSectionContextProvider({
   children,
 }: ActiveSectionContextProvider) {
   const [activeSection, setActiveSection] = useState<SectionName>("Home");
-
+  const [timeOfLastClick, setTimeOfLastClick] = useState(0);
   return (
     <ActiveSectionContext.Provider
       value={{
