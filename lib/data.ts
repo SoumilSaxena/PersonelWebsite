@@ -5,6 +5,7 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import oasis from "@/public/oasis.png";
 
 export const links = [
   {
@@ -90,11 +91,11 @@ export const projectsData = [
     imageUrl: rmtdevImg,
   },
   {
-    title: "CorpComment",
+    title: "Oasis USA Website",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I worked as a full-stack developer on this NGO project for a year. Users can access and contribute to the vision of the Human Trafficking NGO.",
+    tags: ["Angular", "Node.js", "MongoDB", "Tailwind", "Express.js"],
+    imageUrl: oasis,
   },
 ] as const;
 
@@ -108,11 +109,13 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
+  "C++",
+  "Java",
   "MongoDB",
-  "Redux",
+  "ReactNative",
   "GraphQL",
-  "Apollo",
+  "Angular",
+  "AngularJS",
   "Express",
   "PostgreSQL",
   "Python",
