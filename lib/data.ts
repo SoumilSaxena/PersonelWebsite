@@ -6,6 +6,7 @@ import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 import oasis from "@/public/oasis.png";
+import emr from "@/public/emr.png";
 
 export const links = [
   {
@@ -63,11 +64,11 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "ER EMR Streamlining",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Utilized ER datasets from a local hospital to identify potential annual cost savings exceeding $2M+ through streamlined patient timelines, resulting in improved operational efficiency and patient outcomes",
+    tags: ["Python", "Pandas", "SQL", "Git", "PostGreSql"],
+    imageUrl: emr,
   },
   {
     title: "rmtDev",
