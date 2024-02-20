@@ -2,11 +2,10 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+
 import oasis from "@/public/oasis.png";
 import emr from "@/public/emr.png";
+import car from "@/public/car.png";
 
 export const links = [
   {
@@ -37,12 +36,12 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated Bachelors",
+    location: "Tampa, FL",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Graduated from University of South Florida with a Major in Computer Science and a minor in Mathematics\n Relevant Courses: Analysis of Algorithms, Database Design, Software Engineering, Object Oriented Programming, Computer Architecture, Operating Systems, Software Testing, Secure Coding, Software Systems Design.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2019 - 2023",
   },
   {
     title: "Front-End Developer",
@@ -71,26 +70,26 @@ export const projectsData = [
     imageUrl: emr,
   },
   {
-    title: "rmtDev",
+    title: "Car Enterprise",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Developed a robust and scalable web application using Flask and Bootstrap, meeting the complex requirements of a leading car enterprise with advanced Python skills",
+    tags: ["Flask", "JavaScript", "Python", "SQL", "PostGreSql", "Git"],
+    imageUrl: car,
   },
-  {
-    title: "Word Analytics",
-    description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
-  },
-  {
-    title: "rmtDev",
-    description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
-  },
+  // {
+  //   title: "Word Analytics",
+  //   description:
+  //     "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+  //   tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+  //   imageUrl: wordanalyticsImg,
+  // },
+  // {
+  //   title: "rmtDev",
+  //   description:
+  //     "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+  //   tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+  //   imageUrl: rmtdevImg,
+  // },
   {
     title: "Oasis USA Website",
     description:
