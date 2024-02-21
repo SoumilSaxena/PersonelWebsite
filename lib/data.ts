@@ -44,20 +44,20 @@ export const experiencesData = [
     date: "2019 - 2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Software Engineer Intern",
+    location: "Tampa, FL",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a React Native Developer for Resilience inc. Collaborated with a seasoned team at Resilience to develop a app focused on Social Emotional Learning (SEL) for K-12 students, enhancing educational outcomes",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "Oct 2021 - Feb 2022",
   },
   {
     title: "Full-Stack Developer",
     location: "Houston, TX",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I'm now a full-stack developer working as a volunteer for OASIS USA. My stack includes Angular, Express.js, TypeScript, Node.js, and MongoDB. I'm open to full-time opportunities.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Oct 2023 - present",
   },
 ] as const;
 
