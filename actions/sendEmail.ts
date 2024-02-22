@@ -10,7 +10,6 @@ const resend = new Resend(process.env.RESEND_API_KEY);
 export const sendEmail = async (formData: FormData) => {
   const message = formData.get("message");
   const senderEmail = formData.get("senderEmail");
-  console.log(process.env.RESEND_API_KEY);
   if (!validateString(senderEmail, 500)) {
     return {
       error: "Invalid sender email",
